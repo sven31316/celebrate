@@ -19,7 +19,7 @@ var S = {
         if (i !== -1) {
             S.UI.simulate(decodeURI(action).substring(i + 3));
         } else {
-            S.UI.simulate('#rectangle|#countdown 3|The Day is|#Date|The Time Is|#time|黄晶丽|圣诞快乐!|Best Wishes!|#author||');
+            S.UI.simulate('#rectangle|#countdown 3| The Day is|#Date|The Time Is #time|黄晶丽|圣诞快乐!|Best Wishes!|#author||');
         }
 
         S.Drawing.loop(function() {
